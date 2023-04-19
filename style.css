@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/*Se quiser fazer Comentários CSS */
+button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: #1d61dd;
+    color: white;
+}
+
+header {
+    background: no-repeat center/cover url("assets/tailandia.jpg");
+    height: calc(100vh - 100px);
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 90px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav p {
+    font-weight: bold;
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+.pacotes .pacotes-title {
+    width: 100%;
+    text-align: center;
+    margin:25px 0;
+    font-size: 3rem;
+}
+
+.pacotes {
+    background: bisque;
+    padding: 15px;
+    
+    
+}
+
+.pacotes .pacotes-card {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pacotes .card-image {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+}
+
+.pacotes .card {
+    width: 250px;
+    height: 340px;
+    background: white;
+    border-radius: 24px 0;
+    margin: 25px;
+    position: relative;
+}
+
+.pacotes .card-content {
+      padding: 0 15px;
+}
+
+.pacotes .card-content ul {
+     display: flex;
+     flex-direction: column;
+     padding: 0;
+
+
+}
+
+.pacotes .card-content ul li {
+
+    font-size: 1.0rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    color: grey;
+    font-weight: bold;
+}
+
+.pacotes .card-content li svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.pacotes .card-content h1 {
+     font-size: 1rem;
+
+}
+.pacotes .card .card-tag-top{
+     position: absolute;
+     right: 0;
+     top: 15px;
+     background: #f19b39;
+     border-radius: 8px 0 0 8px;
+     padding: 5px 10px;
+     opacity: 85%;
+}
+
+.pacotes .card .card-tag-bottom{
+    
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: #1d61dd;
+    border-radius: 8px 0 8 0px;
+    padding: 5px 15px;
+    opacity: 85%;
+}
+
+.pacotes .card .card-tag p {
+
+    margin: 0;
+    font-size: 0.8rem;
+    color:white;
+    font-weight: bold;
+}
+
+.resumo {
+    padding: 205px;
+    background: no-repeat center/cover url("assets/25.jpg"); 
+    
+    
+    
+}
+
+.resumo  .resumo-title {
+    text-align: center;
+    margin: 35px 0;
+}
+
+.resumo h1 {
+    color: rgb(255, 255, 255);
+}
+
+.resumo p {
+    text-align: center;
+    color: rgb(98, 99, 100);
+}
+
+.servicos .servicos-cards {
+    margin-top: 25px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+
+}
+.servicos .card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.servicos .card svg {
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+}
+
+.servicos .card svg:hover {
+    stroke: #1d61dd;
+    transform: scale(1.1);
+}
+
+.servicos .card h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.servicos .card p {
+    color: grey;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.servicos .card .card-content {
+    height: 180px;
+    text-align: center;
+}
+
+.contatos {
+    height: 300px;
+    background: rgb(231, 191, 191);
+}
+
+
+.contatos .contatos-title {
+    text-align: center;
+    margin: 55px 0;
+}
+
+.contatos {
+    padding: 15px;
+}
+
+.contatos  .contatos-title {
+    text-align: center;
+    margin: 35px 0;
+}
+
+.contatos .contatos-cards {
+    margin-top: 25px;
+    display: flex;
+    max-width: 1550px;
+    justify-content: center;
+    margin: auto;
+
+}
+.contatos .card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 90px;
+}
+
+.contatos .card svg {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+.contatos .instagram svg {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    color: purple;
+}
+
+.contatos .facebook svg {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    color: blue;
+}
+
+.contatos .mail svg {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    color: rgb(247, 80, 80);
+}
+
+.contatos .twitter svg {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    color: aqua;
+}
+
+.contatos .card svg:hover {
+    stroke: #1d61dd;
+    transform: scale(1.1);
+}
+
+.contatos .facebook svg:hover {
+    stroke: #1d61dd;
+    transform: scale(1.1);
+}
+
+.contatos .instagram svg:hover {
+    stroke: purple;
+    transform: scale(1.1);
+}
+
+.contatos .mail svg:hover {
+    stroke: #f13555;
+    transform: scale(1.1);
+}
+
+.contatos .twitter svg:hover {
+    stroke: aqua;
+    transform: scale(1.1);
+}
+
+.contatos .card h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.contatos .card p {
+    color: grey;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.contatos .card .card-content {
+    height: 180px;
+    text-align: center;
+}
+
+.contatos h1 {
+    text-align: center;
+    font-size: 15px;
+}
